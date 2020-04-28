@@ -1,0 +1,53 @@
+{
+  "name": "Swans",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A demo site for a hypotetical concert by Swans, as the PEC2 for the HTML & CSS Tools course, at the UOC",
+  "scripts": {
+    "parcel:dev": "parcel src/index.html -p 8123 --open",
+    "parcel:build": "parcel build src/index.html --public-url ./ --out-dir dist --no-source-maps --no-cache",
+    "clean": "rimraf dist .cache .cache-loader",
+    "dev": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean stylelint parcel:build",
+    "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm run dev\\033[0m'",
+    "stylelint": "stylelint src/**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlosvalverde/swans"
+  },
+  "author": {
+    "name": "Carlos Valverde",
+    "email": "studio@carlos-valverde.com"
+  },
+  "license": "MIT",
+  "homepage": "https://pec1.netlify.com",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@vue/component-compiler-utils": "^3.1.1",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-imagemin": "^4.0.1",
+    "popper.js": "^1.16.1",
+    "postcss-clean": "^1.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "rimraf": "^2.7.1",
+    "sass": "^1.26.3",
+    "stylelint": "^13.3.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.16.1",
+    "typescript": "^3.8.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.1.6"
+  }
+}

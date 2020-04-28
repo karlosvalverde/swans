@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-sans-serif;
+  background-color: $bg;
+  color: $primary;
+}
+
+a {
+  color: $primary;
+}
+
+#menu-nav-1,
+#menu-nav-2 {
+  position: fixed;
+  z-index: 999;
+}
+
+#menu-nav-1 {
+  top: 0;
+}
+
+#menu-nav-2 {
+  bottom: 0;
+}
+
+.full {
+  height: 100vh;
+}
+
+.serif {
+  font-family: $font-family-serif;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.letter-spacing-small {
+  line-height: -10em;
+  letter-spacing: -2px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}

@@ -1,0 +1,11 @@
+@use "sass:color";
+
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
+$font-family-sans-serif: "Questrial", sans-serif;
+$font-family-serif: "Crimson Text", serif;
+
+$primary: #222;
+$seconday: #ffd83f;
+$bg: color.scale($seconday, $lightness: 0%);
