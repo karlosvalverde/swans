@@ -4,15 +4,30 @@ import Router from "vue-router";
 Vue.use(Router);
 
 const Home = () => import("../routes/home.vue");
-const About = () => import("../routes/about.vue");
-const Projects = () => import("../routes/projects.vue");
-const Contact = () => import("../routes/contact.vue");
+const Who = () => import("../routes/who.vue");
+const Where = () => import("../routes/where.vue");
+const When = () => import("../routes/when.vue");
 
 export default new Router({
-  routes: [
-    { path: "/", name: "home", component: Home },
-    { path: "/about", name: "about", component: About },
-    { path: "/projects", name: "projects", component: Projects },
-    { path: "/contact", name: "contact", component: Contact },
+  routes: [{
+      path: "/",
+      name: "home",
+      component: Home
+    },
+    {
+      path: "/who",
+      name: "who",
+      component: Who
+    },
+    {
+      path: "/where",
+      name: "where",
+      component: Where
+    },
+    {
+      path: "/when",
+      name: "when",
+      component: When
+    },
   ],
 });

@@ -1,15 +1,28 @@
 <template>
-  <div id="menu-nav-1" class="row w-100 justify-content-between text-uppercase letter-spacing-small display-4">
+  <header
+    id="menu-nav-1"
+    class="row w-100 justify-content-between text-uppercase letter-spacing-small display-4"
+  >
     <div class="col w-50">
-      <router-link class="rotate-1" to="/">Carlos Valverde</router-link>
+      <router-link class="rotate-1" to="/">Swans</router-link>
     </div>
-    <div class="col w-50 text-right">
-      <router-link class="rotate-2" to="/about">About</router-link>
+    <div class="col w-50">
+      <div class="row">
+        <div class="col text-center">
+          <router-link class="rotate-2" to="/who">Who</router-link>
+        </div>
+        <div class="col text-center">
+          <router-link class="rotate-2" to="/where">Where</router-link>
+        </div>
+        <div class="col text-right">
+          <router-link class="rotate-2" to="/when">When</router-link>
+        </div>
+      </div>
     </div>
-  </div>
+  </header>
 </template>
 <script>
 export default {
-  name: "MenuNav1",
+  name: "MenuNav"
 };
 </script>
