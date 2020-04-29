@@ -4,7 +4,9 @@
     class="row w-100 justify-content-between text-uppercase letter-spacing-small display-4"
   >
     <div class="col w-50">
-      <router-link class="rotate-1" to="/">Swans</router-link>
+      <router-link class="rotate-1" to="/">
+        <img src="../images/logo.svg" />
+      </router-link>
     </div>
     <div class="col w-50">
       <div class="row">
