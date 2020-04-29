@@ -1,8 +1,8 @@
 {
   "name": "Swans",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
-  "description": "A demo site for a hypotetical concert by Swans, as the PEC2 for the HTML & CSS Tools course, at the UOC",
+  "description": "A demo site for a concert given by Swans, as the PEC2 for the HTML & CSS Tools course, at the UOC",
   "scripts": {
     "parcel:dev": "parcel src/index.html -p 8123 --open",
     "parcel:build": "parcel build src/index.html --public-url ./ --out-dir dist --no-source-maps --no-cache",
@@ -21,7 +21,7 @@
     "email": "studio@carlos-valverde.com"
   },
   "license": "MIT",
-  "homepage": "https://pec1.netlify.com",
+  "homepage": "https://swans.netlify.com",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
