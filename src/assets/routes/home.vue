@@ -1,10 +1,12 @@
 <template>
-  <div class="serif">
-    <p class="text-center display-4">
-      <a href="https://studio.carlos-valverde.com" target="_blank">Multimedia designer</a>, 
-      <a href="https://github.com/karlosvalverde" target="_blank">Front-end Developer</a> and 
-      <a href="https://www.carlos-valverde.com/" target="_blank">Visual Artist</a>.
-    </p>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-6 home"></div>
+    <div class="col-6 align-self-center text-center">
+      <div class="border border-white m-5 p-5 text-white">
+        <h2>Hardest band on Earth</h2>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -12,6 +14,6 @@
 
 <script>
 export default {
-  name: "home",
+  name: "home"
 };
 </script>
