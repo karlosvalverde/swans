@@ -11,28 +11,9 @@ h2 {
   font-weight: 700;
 }
 
-footer {
-  background-color: $secondary;
-}
-
 a {
   color: $primary;
 }
-
-/* #menu-nav-1,
-#menu-nav-2 {
-  position: fixed;
-  z-index: 999;
-}
-
-#menu-nav-1 {
-  top: 0;
-}
-
-#menu-nav-2 {
-  bottom: 0;
-} */
-
 
 .header {
   top: 0;
@@ -56,11 +37,17 @@ a {
 
 .full {
   height: 100vh;
+  overflow: hidden;
 }
 
 .hero {
   max-width: 100vw;
   max-height: auto;
+}
+
+.break {
+  flex-basis: 0;
+  height: 0;
 }
 
 .secondary {
@@ -97,11 +84,13 @@ a {
 }
 
 @media (max-width: 850px) {
-  .col-6 {
-    flex: 1 0 0 !important;
-
-    .home {
-      max-width: 100% !important;
-    }
+  .break {
+    flex-basis: 100%;
+    height: 0;
   }
+
+  .full {
+    overflow: initial;
+  }
+
 }
