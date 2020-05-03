@@ -3,9 +3,9 @@
     <div
       class="header row w-100 secondary fixed-top justify-content-between text-uppercase letter-spacing-small text-center"
     >
-      <div class="col-6 my-auto text-left">
+      <div class="col-6 my-auto mx-auto text-left">
         <router-link class="d-inline" to="/">
-          <img class="logo-big m-3" src="../images/logo.svg" />
+          <img class="logo-big m-3 img-fluid" src="../images/logo.svg" />
         </router-link>
       </div>
       <div class="break"></div>
