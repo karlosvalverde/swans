@@ -1,19 +1,13 @@
 <template>
-  <div class="container-fluid full">
-  <div class="row">
-    <div class="col home"></div>
-    <div class="break"></div>
-    <div class="col align-self-center text-center">
-      <div class="row">
-        <div class="col border border-white m-5 p-5 text-white">
-          <h2>Hardest band on Earth</h2>
-        </div>
-      </div>  
-      <div class="row">
-        <div class="col border border-white m-5 p-5 text-white overflow-auto">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+  <div class="home container-fluid full">
+    <div class="row mx-auto h-100 w-100 is-fixed is-above-2 justify-content-center overflow-auto">
+      <div class="col align-self-center text-justify">
+        <h1 class="is-big text-uppercase text-white mt-3 pr-5">Hardest band on Earth</h1>
+      </div>
+    </div>
+    <div class="row h-100">
+      <div class="col align-self-center text-center">
+        <img class="img-fluid" src="../images/swans-01.jpg">
       </div>
     </div>
   </div>

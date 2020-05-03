@@ -1,21 +1,11 @@
 <template>
   <div id="app">
-    <div class="container-fluid full">
-      <div class="row">
-        <div class="col align-items-start">
-          <menu-nav-1></menu-nav-1>
-        </div>
-      </div>
-      <div class="row justify-content-between">
-        <menu-nav-2></menu-nav-2>
-      </div>
-      <div class="h-100">
-        <div class="align-self-center">
-          <transition name="fade" mode="out-in">
-            <router-view></router-view>
-          </transition>
-        </div>
-      </div>
+    <div class="container-fluid">
+      <menu-nav-1></menu-nav-1>
+      <transition name="fade" mode="out-in">
+        <router-view></router-view>
+      </transition>
+      <menu-nav-2></menu-nav-2>
     </div>
   </div>
 </template>

@@ -1,6 +1,6 @@
 {
   "name": "Swans",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "private": true,
   "description": "A demo site for a concert given by Swans, as the PEC2 for the HTML & CSS Tools course, at the UOC",
   "scripts": {

@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div
-      class="footer row w-100 is-fixed is-above secondary text-uppercase letter-spacing-small display-4"
+      class="footer row w-100 fixed-bottom secondary text-uppercase letter-spacing-small display-4"
     >
       <div class="col w-50">
         <router-link class="ml-3" to="/projects">Projects</router-link>
