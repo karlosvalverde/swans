@@ -1,6 +1,6 @@
 ::selection {
- color: $primary;
- background: $secondary;
+  color: $primary;
+  background: $secondary;
 }
 
 body {
@@ -22,6 +22,7 @@ a {
 
 .header {
   top: 0;
+
   h2 {
     font-size: 3vw;
   }
@@ -97,7 +98,9 @@ a {
 
 @media (max-width: 850px) {
   .header {
-    h2 {font-size: 5vw;}
+    h2 {
+      font-size: 5vw;
+    }
   }
   
   .break {

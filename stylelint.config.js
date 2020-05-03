@@ -2,7 +2,6 @@ module.exports = {
   extends: "stylelint-config-standard",
   plugins: ["stylelint-scss"],
   rules: {
-    "selector-nested-pattern": "^&",
     indentation: 2,
     "declaration-block-single-line-max-declarations": 1,
     "block-opening-brace-space-before": "always",
