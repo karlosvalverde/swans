@@ -1,0 +1,23 @@
+.header {
+  top: 0;
+
+  h2 {
+    font-size: 3vw;
+  }
+}
+
+.footer {
+  bottom: 0;
+}
+
+.logo-big {
+  height: 5vh;
+}
+
+@media (max-width: 450px) {
+  .header {
+    h2 {
+      font-size: 5vw;
+    }
+  }
+}

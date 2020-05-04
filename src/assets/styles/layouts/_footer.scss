@@ -1,0 +1,15 @@
+.footer {
+  bottom: 0;
+
+  h2 {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    h2 {
+      font-size: 5vw;
+    }
+  }
+}

@@ -14,6 +14,6 @@
 </template>
 <script>
 export default {
-  name: "MenuNav2"
+  name: "MyFooter"
 };
 </script>

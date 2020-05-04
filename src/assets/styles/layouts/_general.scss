@@ -1,0 +1,94 @@
+::selection {
+  color: $primary;
+  background: $secondary;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-sans-serif;
+  background-color: $bg;
+  color: $primary;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+a {
+  color: $primary;
+}
+
+.full {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero {
+  max-width: 100vw;
+  max-height: auto;
+}
+
+.break {
+  flex-basis: 0;
+  height: 0;
+}
+
+.secondary {
+  background-color: $secondary;
+}
+
+.is-above-1 {
+  z-index: 9999;
+}
+
+.is-above-2 {
+  z-index: 999;
+}
+
+.is-fixed {
+  position: fixed;
+}
+
+.is-scrolled {
+  height: calc(90vh - 10vh);
+}
+
+.serif {
+  font-family: $font-family-serif;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.letter-spacing-small {
+  line-height: -5em;
+  letter-spacing: -2px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+@media (max-width: 850px) {
+  .full {
+    overflow: initial;
+  }
+
+  .letter-spacing-small {
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 450px) {  
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
+}

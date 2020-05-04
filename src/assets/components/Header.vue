@@ -1,8 +1,6 @@
 <template>
   <header>
-    <div
-      class="header row w-100 secondary fixed-top justify-content-between text-uppercase letter-spacing-small text-center"
-    >
+    <div class="header row m-0 w-100 secondary fixed-top justify-content-between text-uppercase letter-spacing-small text-center">
       <div class="col-6 my-auto mx-auto text-left">
         <router-link class="d-inline" to="/">
           <img class="logo-big m-3 img-fluid" src="../images/logo.svg" />
@@ -29,6 +27,6 @@
 </template>
 <script>
 export default {
-  name: "MenuNav"
+  name: "MyHeader"
 };
 </script>
