@@ -1,6 +1,6 @@
 .home {
   h1 {
-    margin-left: -0.5vw;
+    margin-left: -.5vw;
   }
 }
 
@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 850px) {
-  .home{
+  .home {
     .is-big {
       font-size: 15vw;
       margin-left: -2vw;
@@ -28,5 +28,5 @@
     .is-big {
       margin-top: 17vh !important;
     }
-  }  
+  }
 }
