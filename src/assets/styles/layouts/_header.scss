@@ -4,10 +4,23 @@
   h2 {
     font-size: 3vw;
   }
+
+  a {
+    &:hover {
+      transition: .15s;
+      text-shadow: 2px 2px 8px $primary;
+      text-decoration: none;
+    }
+  }
 }
 
 .logo-big {
   height: 5vh;
+
+  &:hover {
+    transition: .15s;
+    filter: contrast(150%) drop-shadow(2px 2px 8px $primary);
+  }
 }
 
 @media (max-width: 450px) {

@@ -1,7 +1,18 @@
 .what {
   .is-scrolled {
-    margin-top: 4vh;
-    max-height: 85vh;
+    margin-top: 4vw;
+    max-height: 100vh !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .what {
+    margin-top: 12vw !important;
+
+    .is-scrolled {
+      margin-top: 0;
+      height: calc(95vh - 10vh);
+    }
   }
 }
 
@@ -10,6 +21,10 @@
     margin-top: 17vh !important;
     display: block !important;
     flex-wrap: wrap !important;
+
+    .is-scrolled {
+      margin-top: 7vw;
+    }
 
     .is-fixed {
       position: relative;

@@ -13,6 +13,8 @@
 <script>
 import MyHeader from "../components/Header.vue";
 import MyFooter from "../components/Footer.vue";
+import gmapsInit from "../../utils/gmaps";
+
 export default {
   name: "app",
   components: {
