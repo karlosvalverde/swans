@@ -1,0 +1,71 @@
+.who {
+  margin-top: 12vh !important;
+  margin-bottom: 12vh !important;
+
+  .is-card {
+    margin: 1vw;
+    transition: .25s;
+    cursor: pointer;
+    
+    h2 {
+      font-weight: lighter;
+    }
+
+    &:hover {
+      background-color: $primary;
+
+      img {
+        filter: grayscale(100%);
+      }
+
+      h2 {
+        color: $secondary;
+      }
+
+      .is-hidden {
+        display: block;
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.active {
+  background-color: $primary;
+  
+  img {
+    filter: grayscale(100%);
+  }
+
+  h2 {
+    color: $secondary;
+  }
+
+  .is-hidden {
+    display: block;
+    color: $secondary;
+  }
+}
+
+.is-grayscale {
+  filter: grayscale(0);
+}
+
+.is-hidden {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  h2 {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 450px) {
+  h2 {
+    font-size: 5vw;
+  }
+  .w-25 {
+    width: 100% !important;
+  }
+}

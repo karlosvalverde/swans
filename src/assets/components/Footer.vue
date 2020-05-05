@@ -1,13 +1,15 @@
 <template>
   <footer>
-    <div
-      class="footer row w-100 fixed-bottom secondary text-uppercase letter-spacing-small display-4"
-    >
-      <div class="col w-50">
-        <router-link class="ml-3" to="/projects">Projects</router-link>
+    <div class="footer row m-0 pt-2 w-100 fixed-bottom secondary text-uppercase letter-spacing-small">
+      <div class="col my-auto">
+        <h2>
+          <router-link to="/projects">Projects</router-link>
+        </h2>  
       </div>
-      <div class="col w-50 text-right">
-        <router-link class="mr-0" to="/contact">Contact</router-link>
+      <div class="col my-auto text-right">
+        <h2>
+          <router-link to="/contact">Contact</router-link>
+        </h2>  
       </div>
     </div>
   </footer>

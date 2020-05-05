@@ -1,16 +1,32 @@
-.is-big {
-  font-size: 20vw;
+.home {
+  h1 {
+    margin-left: -0.5vw;
+  }
 }
 
-.is-scrolled {
-  height: calc(90vh - 10vh);
+.is-big {
+  font-size: 20vw;
+  max-height: 90vh;
+}
+
+.is-secondary {
+  color: $secondary !important;
 }
 
 @media (max-width: 850px) {
-  .is-big {
-    position: relative !important;
-    font-size: 18vw;
-    margin-left: -10px;
-    text-align: center;
+  .home{
+    .is-big {
+      font-size: 15vw;
+      margin-left: -2vw;
+      margin-top: 8vh !important;
+    }
   }
+}
+
+@media (max-width: 450px) {
+  .home {
+    .is-big {
+      margin-top: 17vh !important;
+    }
+  }  
 }

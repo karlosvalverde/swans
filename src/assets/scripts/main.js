@@ -4,17 +4,18 @@
  */
 
 import Vue from "vue";
+import VueClazyLoad from "vue-clazy-load";
 import router from "./routes";
 import App from "./App.vue";
 
 import "bootstrap";
 import "../styles/main.scss";
 
-// import SomeModule from 'some-node-module';
-
 /**
  * Write any other JavaScript below
  */
+
+Vue.use(VueClazyLoad);
 
 new Vue({
   el: "#app",

@@ -9,17 +9,17 @@
       <div class="break"></div>
       <div class="col pt-2 my-auto">
         <h2>
+          <router-link to="/what">What</router-link>
+        </h2>
+      </div>
+      <div class="col pt-2 my-auto">
+        <h2>
           <router-link to="/who">Who</router-link>
         </h2>
       </div>
       <div class="col pt-2 my-auto">
         <h2>
           <router-link to="/where">Where</router-link>
-        </h2>
-      </div>
-      <div class="col pt-2 my-auto">
-        <h2>
-          <router-link to="/when">When</router-link>
         </h2>
       </div>
     </div>
