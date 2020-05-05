@@ -14,16 +14,11 @@
     &:hover {
       background-color: $primary;
 
-      img {
+      .img-fluid {
         filter: grayscale(100%);
       }
 
       h2 {
-        color: $secondary;
-      }
-
-      .is-hidden {
-        display: block;
         color: $secondary;
       }
     }
@@ -32,8 +27,10 @@
 
 .active {
   background-color: $primary;
+  color: $secondary;
+  transition: 1s opacity linear;
   
-  img {
+  .img-fluid {
     filter: grayscale(100%);
   }
 
@@ -42,8 +39,9 @@
   }
 
   .is-hidden {
-    display: block;
-    color: $secondary;
+    visibility: visible;
+    opacity: 1;
+    height: auto;
   }
 }
 
@@ -52,7 +50,9 @@
 }
 
 .is-hidden {
-  display: none;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
 }
 
 @media (max-width: 850px) {

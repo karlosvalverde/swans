@@ -4,7 +4,7 @@
  */
 
 import Vue from "vue";
-import VueClazyLoad from "vue-clazy-load";
+import VueLazyLoad from "vue-lazyload";
 import router from "./routes";
 import App from "./App.vue";
 
@@ -15,7 +15,7 @@ import "../styles/main.scss";
  * Write any other JavaScript below
  */
 
-Vue.use(VueClazyLoad);
+Vue.use(VueLazyLoad);
 
 new Vue({
   el: "#app",

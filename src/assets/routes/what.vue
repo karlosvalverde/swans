@@ -2,10 +2,10 @@
   <div class="container-fluid">
     <div class="what row mt-5 h-100 w-100">
       <div class="col-6 align-self-start is-fixed">
-        <img class="img-responsive w-100" src="../images/swans-01.jpg">
+        <v-lazy-image class="img-responsive w-100" src="https://i.imgur.com/xOftcX9.jpg" />
       </div>
       <div class="break"></div>
-      <div class="col-6 ml-auto mt-5 text-center is-scrolled overflow-auto">
+      <div class="col-6 ml-auto text-center is-scrolled overflow-auto">
         <div class="row">
           <div class="col border border-white m-5 p-5 text-white">
             <h2>Hardest band on Earth</h2>
@@ -31,7 +31,12 @@
 </template>
 
 <script>
+import VLazyImage from "v-lazy-image";
+
 export default {
-  name: "what"
+  name: "what",
+  components: {
+    VLazyImage
+  }
 };
 </script>

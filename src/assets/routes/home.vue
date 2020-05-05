@@ -11,16 +11,19 @@
     </div>
     <div class="row h-100">
       <div class="col align-self-center text-center scroll-hidden">
-        <transition name="fade">
-          <img class="img-fluid" src="../images/swans-01.jpg">
-        </transition>
+        <v-lazy-image class="img-fluid" src="https://i.imgur.com/xOftcX9.jpg" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import VLazyImage from "v-lazy-image";
+
 export default {
-  name: "home"
+  name: "home",
+  components: {
+    VLazyImage
+  }
 };
 </script>
