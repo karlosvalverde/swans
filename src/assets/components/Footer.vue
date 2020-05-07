@@ -1,15 +1,16 @@
 <template>
   <footer>
-    <div class="footer row m-0 pt-2 w-100 fixed-bottom secondary text-uppercase letter-spacing-small">
+    <div class="footer row p-3 w-100 fixed-bottom secondary">
       <div class="col my-auto">
-        <h2>
-          <router-link to="/projects">Projects</router-link>
-        </h2>  
+        <p class="pl-4 my-auto">
+          Designed and developed by <a href="https://studio.carlos-valverde.com" target="_blank">Carlos Valverde</a>
+        </p>  
       </div>
+      <div class="break"></div>
       <div class="col my-auto text-right">
-        <h2>
-          <router-link to="/contact">Contact</router-link>
-        </h2>  
+        <p class="my-auto">
+          All images, music and videos are copyright to their respective owners.
+        </p>  
       </div>
     </div>
   </footer>

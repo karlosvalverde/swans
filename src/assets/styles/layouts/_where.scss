@@ -1,0 +1,75 @@
+.where {
+  margin-top: 5vw;
+
+  .secondary {
+    background-color: transparent;
+  }
+
+  .grid {
+    display: flex;
+    max-width: 100vw;
+    max-height: 100vh;
+
+    .item-1 {
+      align-self: center;
+      justify-self: center;
+    }
+
+    .item {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  @supports (display: grid) {
+    .grid {
+      display: grid;
+      max-width: 100vw;
+      max-height: 100vh;
+      justify-self: center;
+      grid-gap: 2vw;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
+      .item-1 {
+        align-self: center;
+        justify-self: center;
+      }
+  
+      .item {
+        width: 1fr;
+        height: 1fr;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .where {
+    margin-top: 12vw !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .where {
+    margin-top: 27vw !important;
+    display: block !important;
+    flex-wrap: wrap !important;
+
+    .secondary {
+      background-color: $secondary;
+    }
+
+    .col-6 {
+      max-width: 100vw !important;
+      flex: 0 0 100%;
+
+      .is-fixed {
+        position: relative;
+      }
+    }
+    
+    .is-scrolled {
+      margin-top: 70vw !important;
+    }
+  }
+}
